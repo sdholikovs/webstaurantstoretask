@@ -22,8 +22,8 @@ public abstract class WebstrauntstoreTestBase {
 
     }
 
-   // @AfterMethod
-  //  public void tearDown() {
-   //     Driver.closeDriver();
-    //}
+    @AfterMethod
+    public void tearDown() {
+        Driver.closeDriver();
+    }
 }
